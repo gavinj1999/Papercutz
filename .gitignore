@@ -1,0 +1,11 @@
+/var/*
+!/var/.htaccess
+/generated/*
+/pub/static/*
+!/pub/static/.htaccess
+/pub/media/*
+!/pub/media/.htaccess
+/vendor/
+/app/etc/env.php
+/app/etc/config.php
+/.ddev/
