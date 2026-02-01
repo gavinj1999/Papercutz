@@ -19,10 +19,8 @@ jobs:
             cd /var/www/papercutz
             git pull origin main
             composer install --no-dev --optimize-autoloader --no-interaction
-            rm -rf generated/* var/cache/*
+            rm -rf generated/* var/cache/* var/page_cache/*
             bin/magento setup:upgrade --keep-generated
             bin/magento setup:di:compile
             bin/magento setup:static-content:deploy en_GB -f
             bin/magento cache:flush
-            find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
-            find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
