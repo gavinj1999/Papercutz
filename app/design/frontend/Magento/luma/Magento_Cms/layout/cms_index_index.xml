@@ -3,7 +3,7 @@
     <body>
         <referenceBlock name="page.main.title">
             <action method="setPageTitle">
-                <argument translate="true" name="title" xsi:type="string">Welcome to Papercutz - Paper Products Delivered!</argument>
+                <argument translate="true" name="title" xsi:type="string">Welcome to Papercutz : Paper Products Delivered!</argument>
             </action>
         </referenceBlock>
     </body>
