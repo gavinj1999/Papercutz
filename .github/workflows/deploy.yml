@@ -24,3 +24,4 @@ jobs:
             bin/magento setup:di:compile
             bin/magento setup:static-content:deploy en_GB -f
             bin/magento cache:flush
+            bin/magento cache:clean
