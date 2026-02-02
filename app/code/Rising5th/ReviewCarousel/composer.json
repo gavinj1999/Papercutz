@@ -1,0 +1,19 @@
+{
+    "name": "vendor/review-carousel",
+    "description": "A Magento 2 extension for managing review carousel configurations",
+    "type": "magento2-module",
+    "version": "1.0.13",
+    "license": "OSL-3.0",
+    "require": {
+        "magento/framework": "^103.0",
+        "magento/module-backend": "^102.0",
+        "magento/module-ui": "^101.2",
+        "magento/module-media-storage": "^100.4"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Vendor\\ReviewCarousel\\": ""
+        }
+    }
+}
