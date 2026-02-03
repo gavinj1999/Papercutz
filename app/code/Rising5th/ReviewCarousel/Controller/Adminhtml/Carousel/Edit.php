@@ -1,10 +1,10 @@
 <?php
-namespace Vendor\ReviewCarousel\Controller\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Controller\Adminhtml\Carousel;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\Registry;
 use Magento\Framework\View\Result\PageFactory;
-use Vendor\ReviewCarousel\Model\Carousel;
+use Rising5th\ReviewCarousel\Model\Carousel;
 use Psr\Log\LoggerInterface;
 
 class Edit extends Action
@@ -30,7 +30,7 @@ class Edit extends Action
         try {
             $this->logger->debug('Loading Edit page for route: ' . $this->getRequest()->getFullActionName());
             $id = $this->getRequest()->getParam('id');
-            $carousel = $this->_objectManager->create(\Vendor\ReviewCarousel\Model\Carousel::class);
+            $carousel = $this->_objectManager->create(\Rising5th\ReviewCarousel\Model\Carousel::class);
             $this->logger->debug('Carousel model instantiated for ID: ' . ($id ?: 'new'));
             if ($id) {
                 $this->logger->debug('Loading carousel with ID: ' . $id);

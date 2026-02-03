@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Model\ResourceModel;
+namespace Rising5th\ReviewCarousel\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Setup;
+namespace Rising5th\ReviewCarousel\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

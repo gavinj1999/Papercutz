@@ -1,9 +1,9 @@
 <?php
-namespace Vendor\ReviewCarousel\Block\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Block\Adminhtml\Carousel;
 
 use Magento\Backend\Block\Widget\Grid\Extended;
 use Magento\Backend\Block\Template\Context;
-use Vendor\ReviewCarousel\Model\ResourceModel\Carousel\CollectionFactory;
+use Rising5th\ReviewCarousel\Model\ResourceModel\Carousel\CollectionFactory;
 use Psr\Log\LoggerInterface;
 
 class Grid extends Extended

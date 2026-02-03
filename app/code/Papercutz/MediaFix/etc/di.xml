@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    
+    <!-- Override the core Uploader class -->
+    <preference for="Magento\MediaStorage\Model\File\Uploader" 
+                type="Papercutz\MediaFix\Model\File\Uploader" />
+    
+    <!-- Fix SaveImageInformation TypeError -->
+    <type name="Magento\MediaGalleryIntegration\Plugin\SaveImageInformation">
+        <plugin name="papercutz_fix_save_image_type_error" 
+                type="Papercutz\MediaFix\Plugin\FixSaveImageInformation" 
+                sortOrder="1"/>
+    </type>
+</config>

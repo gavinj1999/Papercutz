@@ -1,9 +1,9 @@
 <?php
-namespace Vendor\ReviewCarousel\Block\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Block\Adminhtml\Carousel;
 
 use Magento\Backend\Block\Widget\Grid\Extended;
 use Magento\Backend\Block\Template\Context;
-use Vendor\ReviewCarousel\Model\ResourceModel\CarouselConfig\CollectionFactory;
+use Rising5th\ReviewCarousel\Model\ResourceModel\CarouselConfig\CollectionFactory;
 use Psr\Log\LoggerInterface;
 
 class ManageCsv extends Extended

@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Controller\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Controller\Adminhtml\Carousel;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\Model\View\Result\ForwardFactory;

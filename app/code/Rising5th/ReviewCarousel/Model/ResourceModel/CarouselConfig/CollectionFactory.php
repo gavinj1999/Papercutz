@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Model\ResourceModel\CarouselConfig;
+namespace Rising5th\ReviewCarousel\Model\ResourceModel\CarouselConfig;
 
 use Magento\Framework\ObjectManagerInterface;
 
@@ -8,7 +8,7 @@ class CollectionFactory
     protected $objectManager;
     protected $instanceName;
 
-    public function __construct(ObjectManagerInterface $objectManager, $instanceName = \Vendor\ReviewCarousel\Model\ResourceModel\CarouselConfig\Collection::class)
+    public function __construct(ObjectManagerInterface $objectManager, $instanceName = \Rising5th\ReviewCarousel\Model\ResourceModel\CarouselConfig\Collection::class)
     {
         $this->objectManager = $objectManager;
         $this->instanceName = $instanceName;

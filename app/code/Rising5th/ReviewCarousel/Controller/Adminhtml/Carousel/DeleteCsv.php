@@ -1,8 +1,8 @@
 <?php
-namespace Vendor\ReviewCarousel\Controller\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Controller\Adminhtml\Carousel;
 
 use Magento\Backend\App\Action;
-use Vendor\ReviewCarousel\Model\CarouselConfig;
+use Rising5th\ReviewCarousel\Model\CarouselConfig;
 use Magento\Framework\Filesystem;
 use Magento\Framework\App\Filesystem\DirectoryList;
 use Psr\Log\LoggerInterface;
@@ -29,7 +29,7 @@ class DeleteCsv extends Action
         if ($configId) {
             try {
                 $this->logger->debug('Deleting CSV file with config ID: ' . $configId);
-                $config = $this->_objectManager->create(\Vendor\ReviewCarousel\Model\CarouselConfig::class);
+                $config = $this->_objectManager->create(\Rising5th\ReviewCarousel\Model\CarouselConfig::class);
                 $config->load($configId);
                 if ($config->getId()) {
                     $filePath = $config->getFilePath();

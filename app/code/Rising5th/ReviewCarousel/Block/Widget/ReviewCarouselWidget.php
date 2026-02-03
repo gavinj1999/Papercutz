@@ -1,10 +1,10 @@
 <?php
-namespace Vendor\ReviewCarousel\Block\Widget;
+namespace Rising5th\ReviewCarousel\Block\Widget;
 
 use Magento\Framework\View\Element\Template;
 use Magento\Widget\Block\BlockInterface;
-use Vendor\ReviewCarousel\Model\Carousel;
-use Vendor\ReviewCarousel\Model\ResourceModel\Carousel\CollectionFactory as CarouselCollectionFactory;
+use Rising5th\ReviewCarousel\Model\Carousel;
+use Rising5th\ReviewCarousel\Model\ResourceModel\Carousel\CollectionFactory as CarouselCollectionFactory;
 use Psr\Log\LoggerInterface;
 
 class ReviewCarouselWidget extends Template implements BlockInterface

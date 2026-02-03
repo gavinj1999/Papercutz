@@ -1,8 +1,8 @@
 <?php
-namespace Vendor\ReviewCarousel\Controller\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Controller\Adminhtml\Carousel;
 
 use Magento\Backend\App\Action;
-use Vendor\ReviewCarousel\Model\Carousel;
+use Rising5th\ReviewCarousel\Model\Carousel;
 use Psr\Log\LoggerInterface;
 
 class Delete extends Action
@@ -24,7 +24,7 @@ class Delete extends Action
         if ($id) {
             try {
                 $this->logger->debug('Deleting carousel with ID: ' . $id);
-                $carousel = $this->_objectManager->create(\Vendor\ReviewCarousel\Model\Carousel::class);
+                $carousel = $this->_objectManager->create(\Rising5th\ReviewCarousel\Model\Carousel::class);
                 $carousel->load($id);
                 if ($carousel->getId()) {
                     $carousel->delete();

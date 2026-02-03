@@ -1,9 +1,9 @@
 <?php
-namespace Vendor\ReviewCarousel\Controller\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Controller\Adminhtml\Carousel;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\Registry;
-use Vendor\ReviewCarousel\Model\Carousel;
+use Rising5th\ReviewCarousel\Model\Carousel;
 use Psr\Log\LoggerInterface;
 use Magento\Framework\App\Action\HttpPostActionInterface;
 use Magento\Framework\Data\Form\FormKey\Validator;
@@ -51,7 +51,7 @@ class Save extends Action implements HttpPostActionInterface
                 return $resultRedirect->setPath('reviewcarousel/carousel/edit', ['id' => $data['id'] ?? null]);
             }
             $id = !empty($data['id']) ? $data['id'] : null;
-            $carousel = $this->_objectManager->create(\Vendor\ReviewCarousel\Model\Carousel::class);
+            $carousel = $this->_objectManager->create(\Rising5th\ReviewCarousel\Model\Carousel::class);
             $this->logger->debug('Carousel model instantiated for ID: ' . ($id ?: 'new'));
             if ($id) {
                 $carousel->load($id);

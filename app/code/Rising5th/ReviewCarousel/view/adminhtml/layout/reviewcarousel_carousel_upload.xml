@@ -3,7 +3,7 @@
     <update handle="styles"/>
     <body>
         <referenceContainer name="content">
-            <block class="Vendor\ReviewCarousel\Block\Adminhtml\Carousel\Upload" name="carousel_upload">
+            <block class="Rising5th\ReviewCarousel\Block\Adminhtml\Carousel\Upload" name="carousel_upload">
                 <arguments>
                     <argument name="template" xsi:type="string">Rising5th_ReviewCarousel::carousel/upload.phtml</argument>
                 </arguments>

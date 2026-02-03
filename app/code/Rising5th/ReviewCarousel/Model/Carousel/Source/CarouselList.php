@@ -1,8 +1,8 @@
 <?php
-namespace Vendor\ReviewCarousel\Model\Carousel\Source;
+namespace Rising5th\ReviewCarousel\Model\Carousel\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
-use Vendor\ReviewCarousel\Model\ResourceModel\Carousel\CollectionFactory;
+use Rising5th\ReviewCarousel\Model\ResourceModel\Carousel\CollectionFactory;
 
 class CarouselList implements OptionSourceInterface
 {

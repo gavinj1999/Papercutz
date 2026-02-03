@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Model\ResourceModel\CarouselConfig;
+namespace Rising5th\ReviewCarousel\Model\ResourceModel\CarouselConfig;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
@@ -9,6 +9,6 @@ class Collection extends AbstractCollection
 
     protected function _construct()
     {
-        $this->_init(\Vendor\ReviewCarousel\Model\CarouselConfig::class, \Vendor\ReviewCarousel\Model\ResourceModel\CarouselConfig::class);
+        $this->_init(\Rising5th\ReviewCarousel\Model\CarouselConfig::class, \Rising5th\ReviewCarousel\Model\ResourceModel\CarouselConfig::class);
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Block\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Block\Adminhtml\Carousel;
 
 use Magento\Backend\Block\Template;
 use Magento\Backend\Block\Template\Context;

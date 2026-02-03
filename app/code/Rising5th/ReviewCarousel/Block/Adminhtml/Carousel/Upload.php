@@ -1,5 +1,5 @@
 <?php
-namespace Vendor\ReviewCarousel\Block\Adminhtml\Carousel;
+namespace Rising5th\ReviewCarousel\Block\Adminhtml\Carousel;
 
 use Magento\Backend\Block\Template;
 use Magento\Backend\Block\Template\Context;
@@ -33,7 +33,7 @@ class Upload extends Template
     public function getCurrentFilePath()
     {
         try {
-            $config = $this->_objectManager->create(\Vendor\ReviewCarousel\Model\CarouselConfig::class);
+            $config = $this->_objectManager->create(\Rising5th\ReviewCarousel\Model\CarouselConfig::class);
             $config->load(1);
             $filePath = $config->getFilePath();
             $this->_logger->debug('Retrieved current file path: ' . ($filePath ?: 'none'));
