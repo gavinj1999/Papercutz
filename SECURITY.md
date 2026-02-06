@@ -8,3 +8,4 @@ We strongly encourage you to report all security issues privately via our [bug b
 
 ## Learning More About Security
 To learn more about securing a Magento store, please visit the [Security Center](https://magento.com/security).
+test
