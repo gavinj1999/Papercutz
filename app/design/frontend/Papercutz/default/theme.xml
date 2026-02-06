@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
-<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
-    <title>Papercutz Default</title>
-    <parent>Hyva/default</parent>
-    <media>
-        <preview_image>media/preview.png</preview_image>
-    </media>
+<theme xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance” xsi:noNamespaceSchemaLocation=”urn:magento:framework:Config/etc/theme.xsd”>
+
+ <title>Papercutz Child Theme</title>
+
+ <parent>PaperCutz/default</parent>
+
 </theme>

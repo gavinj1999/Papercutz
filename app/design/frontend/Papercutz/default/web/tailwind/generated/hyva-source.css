@@ -6,13 +6,11 @@
  * please exclude them in your theme using the hyva.config.json configuration.
  */
 
-@source "../../../../../../../../vendor/hyva-themes/magento2-theme-module/src/**/*.phtml";
-@source "../../../../../../../../vendor/hyva-themes/magento2-theme-module/src/**/*.xml";
-@source "../../../../../../../../vendor/mollie/magento2-hyva-compatibility/src/Mollie_HyvaCompatibility/**/*.phtml";
-@source "../../../../../../../../vendor/mollie/magento2-hyva-compatibility/src/Mollie_HyvaCompatibility/**/*.xml";
-@source "../../../../../../../../vendor/hyva-themes/magento2-default-theme/**/*.phtml";
-@source "../../../../../../../../vendor/hyva-themes/magento2-default-theme/**/*.xml";
+@source "../../../../magento2-theme-module/src/**/*.phtml";
+@source "../../../../magento2-theme-module/src/**/*.xml";
+@source "../../../../../mollie/magento2-hyva-compatibility/src/Mollie_HyvaCompatibility/**/*.phtml";
+@source "../../../../../mollie/magento2-hyva-compatibility/src/Mollie_HyvaCompatibility/**/*.xml";
 
-@import "../../../../../../../../vendor/mollie/magento2-hyva-compatibility/src/Mollie_HyvaCompatibility/view/frontend/tailwind/tailwind-source.css";
+@import "../../../../../mollie/magento2-hyva-compatibility/src/Mollie_HyvaCompatibility/view/frontend/tailwind/tailwind-source.css";
 
 

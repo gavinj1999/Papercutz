@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(xargs:*)",
+      "Bash(git -C /f/dev/Papercutz log --oneline -20)",
+      "Bash(git -C /f/dev/Papercutz show --stat HEAD)",
+      "Bash(git -C /f/dev/Papercutz status)",
+      "Bash(git -C /f/dev/Papercutz diff CLAUDE.md)",
+      "Bash(git -C /f/dev/Papercutz log --oneline -5)",
+      "Bash(git -C /f/dev/Papercutz add CLAUDE.md)",
+      "Bash(git -C /f/dev/Papercutz commit -m \"$\\(cat <<''EOF''\nAdd CLAUDE.md for Claude Code guidance\n\nDocuments development environment, essential commands, theme architecture, and deployment workflow.\n\n🤖 Generated with [Claude Code]\\(https://claude.ai/code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

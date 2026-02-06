@@ -1,8 +1,13 @@
 <?php
-/**
- * Papercutz Theme
- */
 
-use Magento\Framework\Component\ComponentRegistrar;
+\Magento\Framework\Component\ComponentRegistrar::register(
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Papercutz/default', __DIR__);
+    \Magento\Framework\Component\ComponentRegistrar::THEME,
+
+    'frontend/PaperCutz/default',
+
+    __DIR__
+
+);
+
+?>

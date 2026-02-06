@@ -1,7 +1,7 @@
 {
-  "name": "@papercutz/default-theme",
-  "version": "1.0.0",
-  "description": "Papercutz child theme based on Hyvä Default",
+  "name": "@hyva-themes/magento2-default-theme",
+  "version": "3.0.0",
+  "description": "Hyvä-Themes Default Theme, a TailwindCSS and Alpine.js based Magento frontend theme that makes eCommerce happy.",
   "type": "module",
   "dependencies": {
     "@hyva-themes/hyva-modules": "^1.2.4",
@@ -24,7 +24,7 @@
   "browserslist": [
     "> 0.5% and not dead"
   ],
-  "author": "Papercutz",
+  "author": "Hyvä Themes BV",
   "license": "proprietary",
   "private": true
 }
